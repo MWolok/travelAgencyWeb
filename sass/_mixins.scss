@@ -1,0 +1,8 @@
+@use "colors" as *;
+
+@mixin heroImg($imgUrl) {
+	background-image: $blue-gradient, url($imgUrl);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
