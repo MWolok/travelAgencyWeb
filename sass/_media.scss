@@ -1,0 +1,31 @@
+@use "colors" as *;
+
+@media (min-width: 768px) {
+	.white-block {
+		height: 50px;
+		width: 45%;
+	}
+	.header {
+		&__heading {
+			font-size: 6.6rem;
+		}
+		&__text {
+			font-size: 2.2rem;
+		}
+		&__btn {
+			font-size: 1.6rem;
+		}
+	}
+}
+@media (min-width: 992px) {
+	.burger-btn {
+		top: 45px;
+		right: 45px;
+	}
+	.header {
+		background-image: $blue-gradient,
+			url(/img/island-g49ce6bba1_1920.jpg) &__heading {
+			font-size: 10rem;
+		}
+	}
+}

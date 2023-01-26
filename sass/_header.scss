@@ -58,14 +58,29 @@
 	text-align: center;
 	color: $pure-white;
 	@include heroImg("/img/island-g5bd3c2a8a_640.jpg");
+
 	&__heading {
 		font-family: "Dancing Script", cursive;
 		font-size: 4.9rem;
 		font-weight: 300;
-
 	}
-    &__text{
-        font-size: 1.4rem;
-        
-    }
+	&__text {
+		font-size: 1.4rem;
+	}
+	&__btn {
+		margin-top: 2em;
+		background-color: $pure-white;
+		padding: 0.8em 1.6em;
+		font-size: 1.3rem;
+		background-color: $pure-white;
+		border: none;
+		border-radius: 8px;
+		color: $dark;
+		text-decoration: none;
+		text-transform: uppercase;
+		cursor: pointer;
+		&::before{
+			background-color: $light-white;
+		}
+	}
 }
